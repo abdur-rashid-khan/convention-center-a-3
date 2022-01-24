@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <!-- boostarp -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- fontawesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- google font -->
+   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   <!-- stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header style="background-color: #E5E5E5;">
+   <!-- navbar -->
+   <nav id="nav_bg" class="navbar navbar-expand-lg navbar-light px-2" >
+      <div class="container-fluid">
+         <a class="navbar-brand" href="#">Convention</a>
+         <div class="d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#showdata" aria-controls="showdata" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- button not work -->
+            <div class="collapse navbar-collapse"  ="showdata">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                  <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         </div>
+      </nav>
+   </header>
+   <section>
+      <main>
+         <div id="fastSlieder" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#fastSlieder" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#fastSlieder" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#fastSlieder" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               <button type="button" data-bs-target="#fastSlieder" data-bs-slide-to="3" aria-label="Slide 4"></button>
+               </div>
+               <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img id="slider_img" src="./img/banner/banner-1.webp" class="d-block w-100 img-fluid" alt="slider">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>First slide label</h5>
+                     <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img id="slider_img" src="./img/banner/banner-2.webp" class="d-block w-100 img-fluid" alt="slider">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Second slide label</h5>
+                     <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img id="slider_img" src="./img/banner/banner-3.jpg" class="d-block w-100 img-fluid" alt="slider">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Third slide label</h5>
+                     <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img id="slider_img" src="./img/banner/banner-5.webp" class="d-block w-100 img-fluid" alt="slider">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Third slide label</h5>
+                     <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+               </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#fastSlieder" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#fastSlieder" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+      </main>
+   </section>
+   <!-- wedding -->
+   <section>
+      <div class="container-fluid">
+         <div class="row py-5 align-items-center align-content-around">
+            <div class="col-md-6 col-sm-12 text-center">
+               <div class="wedding_img">
+                  <img src="./img/wedding.png" alt="wedding" class="img-fluid">
+               </div>
+            </div>
+            <div class="col-md-6 col-sm-12 py-sm-4">
+               <div class="wedding_text">
+                  <h1 class="h1">Every moment is Precious </h1>
+                  <p class="pt-3 h6 text-muted text-start">Within Bangladesh, arranged marriages are arguably the most common form of marriage and are considered traditional in society.Like many traditional and non-liberal societies, in Bengali culture, marriage is seen as a union between two families rather than just two people.A cultural wedding is arranged by ghotoks (matchmakers), who are generally friends or relatives of the bride and groom's parents. The ghotoks facilitate introduction of the bride and groom's identity to respective parents.</p>
+               </div>
+               <button class="btn btn-primary text-white fsw-bold px-5 mt-4"> SEE MORE <i class="fas fa-arrow-right"></i></button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Our package -->
+   <section>
+      <div class="container-fluid">
+         <div class="package_content py-5">
+            <div class="package_header text-center pb-3">
+               <h2>Our package</h2>
+            </div>
+            <div class="row">
+               <div class="col-sm-12 pt-md-4 pt-sm-5 pt-3 col-md-6 col-lg-3">
+                  <div class="card rounded-5 shadow">
+                     <div class="card-header">
+                        <h2>$399</h2>
+                     </div>
+                     <div class="card-body">
+                        <h5 class="card-title">Business fair</h5>
+                        <div class="card-body">
+                           <ul>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>limited space access</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Secuirty facility</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>event support</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Decoration design</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Per day bill</p>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card-footer">
+                           <a href="#" class="btn btn-primary d-block">Go somewhere</a>
+                        </div>
+                     </div>
+                     </div>
+               </div>
+               <div class="col-sm-12 pt-md-4 pt-sm-5 pt-3 col-md-6 col-lg-3">
+                  <div class="card rounded-5 shadow bg-primary text-light">
+                     <div class="card-header" id="special">
+                        <div id="special_offer">
+                           <p class="">HOT</p>
+                        </div>
+                        <h2>$1399</h2>
+                     </div>
+                     <div class="card-body">
+                        <h5 class="card-title">wedding basic</h5>
+                        <div class="card-body">
+                           <ul>
+                              <li>
+                                 <i  class="text-light fas fa-check"></i>
+                                 <p>Buffet food</p>
+                              </li>
+                              <li>
+                                 <i  class="text-light fas fa-check"></i>
+                                 <p>Secuirty facility</p>
+                              </li>
+                              <li>
+                                 <i  class="text-light fas fa-check"></i>
+                                 <p>Full space access</p>
+                              </li>
+                              <li>
+                                 <i  class="text-light fas fa-check"></i>
+                                 <p>Dedicated team</p>
+                              </li>
+                              <li>
+                                 <i  class="text-light fas fa-check"></i>
+                                 <p>Per day bill</p>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card-footer">
+                           <a href="#" class="btn btn-outline-info d-block">Go Choose plan</a>
+                        </div>
+                     </div>
+                     </div>
+               </div>
+               <div class="col-sm-12 pt-md-4 pt-sm-5 pt-3 col-md-6 col-lg-3">
+                  <div class="card rounded-5 shadow">
+                     <div class="card-header">
+                        <h2>$899</h2>
+                     </div>
+                     <div class="card-body">
+                        <h5 class="card-title">Wedding plus</h5>
+                        <div class="card-body">
+                           <ul>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Dedicated team</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Full space access</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Dedicated team</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Buffet food</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Per day bill</p>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card-footer">
+                           <a href="#" class="btn btn-primary d-block">Go Choose plan</a>
+                        </div>
+                     </div>
+                     </div>
+               </div>
+               <div class="col-sm-12 pt-md-4 pt-sm-5 pt-3 col-md-6 col-lg-3">
+                  <div class="card rounded-5 shadow">
+                     <div class="card-header">
+                        <h2>$699</h2>
+                     </div>
+                     <div class="card-body">
+                        <h5 class="card-title fw-bold">Corporate event</h5>
+                        <div class="card-body">
+                           <ul>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Full space access</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Mangement support</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Decoration design</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Billed as shift</p>
+                              </li>
+                              <li>
+                                 <i  class="fas fa-check"></i>
+                                 <p>Per day bill</p>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card-footer">
+                           <a href="#" class="btn btn-primary d-block">Go Choose plan</a>
+                        </div>
+                     </div>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Happy Clients says -->
+   <section>
+      <div class="container">
+         <div class="clienet_content">
+            
+         </div>
+      </div>
+   </section>
+   <!-- boostarp -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
