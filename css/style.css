@@ -58,7 +58,13 @@ ul li i {
    -ms-border-radius: 15px;
    -o-border-radius: 15px;
 }
-
+#rounded{
+   border-radius: .8rem;
+   -webkit-border-radius: .8rem;
+   -moz-border-radius: .8rem;
+   -ms-border-radius: .8rem;
+   -o-border-radius: .8rem;
+}
 
 
 /*  */
