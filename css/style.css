@@ -65,7 +65,10 @@ ul li i {
    -ms-border-radius: .8rem;
    -o-border-radius: .8rem;
 }
-
+#apps{
+   width: 200px;
+   height: auto;
+}
 
 /*  */
 /* @media only screen and (max-width:1024) {
